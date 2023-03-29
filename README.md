@@ -1,11 +1,11 @@
 # interactiveShell
-A fully interactive TCP cmd reverse shell.
+A fully interactive TCP cmd reverse shell for Windows OS
 
 # Setup
 
 Compile the project
 ```
-go build
+go build -ldflags='-H=windowsgui'
 ```
 Setup an NC listener for your chosen port
 ```
